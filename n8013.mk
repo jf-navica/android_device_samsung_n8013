@@ -18,11 +18,14 @@ LOCAL_PATH := device/samsung/n8013
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-
 # Rootdir
 PRODUCT_COPY_FILES += \
     device/samsung/n8013/rootdir/init.target.rc:root/init.target.rc
 
+# Copied audio from cm-10.2
+# Audio
+PRODUCT_COPY_FILES += \
+    device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N8013
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
