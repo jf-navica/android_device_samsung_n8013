@@ -4,8 +4,8 @@
         "target_path": "device/samsung/smdk4412-common"
     },
     {
-        "repository": "android_kernel_samsung_smdk4412",
-        "target_path": "kernel/samsung/smdk4412"
+        "repository": "android_kernel_samsung_n80xx",
+        "target_path": "kernel/samsung/n80xx"
     },
     {
         "repository": "android_device_samsung_n80xx-common",
